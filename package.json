@@ -1,0 +1,50 @@
+{
+  "name": "mongoose-revisionator",
+  "description": "Add version / revision support Mongoose Models",
+  "version": "0.0.1-alpha1",
+  "author": {
+    "name": "Joe Cyboski",
+    "email": "cybo42@gmail.com>",
+    "url": "http://cybo42.com"
+  },
+  "contributors": [
+    "Joe Cyboski <cybo42@gmail.com>"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cybo42/mongoose-revisionator.git"
+  },
+  "bugs": {
+    "url": "https://github.com/cybo42/mongoose-revisionator/issues"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "grunt test"
+  },
+  "engines": {
+    "node": ">=0.10.x"
+  },
+  "devDependencies": {
+    "chai": "^1.9.1",
+    "grunt": "^0.4.4",
+    "grunt-contrib-jshint": "^0.10.0",
+    "mocha": "^1.18.2",
+    "grunt-mocha": "^0.4.10",
+    "mongoose": "^3.8.8"
+  },
+  "keywords": [
+    "mongo",
+    "mongodb",
+    "mongoose",
+    "version",
+    "revision",
+    "history"
+  ],
+  "peerDependencies": {
+    "mongoose": "^3.8.8"
+  },
+  "dependencies": {
+    "debug": "^0.8.1"
+  }
+}
